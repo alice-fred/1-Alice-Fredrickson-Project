@@ -25,7 +25,11 @@ body {
 header a.logo {
   position: absolute;
   display: block;
-  width: 900px;
+  /* alice original width: 900px; */
+  /* alice, the history and gallery didn't work because the logo width is too wide 
+  /*  that covered the history and gallery nav options, so it always went back to the index page */
+  /* pam updated the logo to 200px so it won't cover other nav menu options */
+  width: 200px;
   height: 80px;
   background: url(../images/Sweet-Pickleball-Logo.png) no-repeat 0 0;
   background-size: contain;
